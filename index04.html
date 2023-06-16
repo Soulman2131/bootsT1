@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.css" />
+		<!-- LINK DE JS -->
+		<link rel="stylesheet" href="bootstrap-5.3.0-dist/js/bootstrap.js" />
+		<title>Document</title>
+	</head>
+	<body>
+		<!-- FORM -->
+		<form action="#" class="d-flex justify-content-center align-items-center pt-4">
+			<div class="form-group d-inline-block">
+				<div class="form-control">
+					<label for="name" class="form-label"> Nom</label>
+					<input type="text" name="name" id="name" />
+				</div>
+				<div class="form-control">
+					<label for="email" class="form-label">Email</label>
+					<input type="email" name="email" id="email" />
+				</div>
+				<div class="form-control">
+					<input type="submit" value="Envoyer" />
+				</div>
+			</div>
+		</form>
+
+		<!-- SELECT -->
+		<div class="d-flex justify-content-center align-items-center m-5">
+			<!--  -->
+			<select name="selection" id="selection" class="form-select">
+				<option selected>Selected any one</option>
+				<option value="1">HTML</option>
+				<option value="2">CSS</option>
+				<option value="3">JS</option>
+			</select>
+
+			<!--  -->
+			<select name="selection" id="selection" class="form-select form-select-lg" multiple>
+				<option selected>Selected any one</option>
+				<option value="1">HTML</option>
+				<option value="2">CSS</option>
+				<option value="3">JS</option>
+			</select>
+
+			<!-- 	 -->
+			<select name="selection" id="selection" class="form-select" size="4">
+				<option selected>Selected any one</option>
+				<option value="1">HTML</option>
+				<option value="2">CSS</option>
+				<option value="3">JS</option>
+				<option value="4">CSS</option>
+			</select>
+
+			<!-- SELECT  -->
+			<select name="selection" id="selection" class="form-select" disabled>
+				<option selected>Selected any one</option>
+				<option value="1">HTML</option>
+				<option value="2">CSS</option>
+				<option value="3">JS</option>
+			</select>
+		</div>
+
+		<!-- CHECKBOX -->
+		<div>
+			<div class="form-check">
+				<input type="checkbox" class="form-check-input" checked />
+				<label> Kéziah</label>
+			</div>
+			<div class="form-check">
+				<input type="checkbox" class="form-check-input" />
+				<label> Ciara</label>
+			</div>
+		</div>
+		<!-- RADIO -->
+		<div>
+			<div class="form-check">
+				<input type="radio" class="form-check-input" name="radio" checked />
+				<label> Kéziah</label>
+			</div>
+			<div class="form-check">
+				<input type="radio" class="form-check-input" name="radio" />
+				<label> Ciara</label>
+			</div>
+			<!-- SWITCH -->
+			<div class="form-check form-switch">
+				<input type="radio" class="form-check-input" name="radio" />
+				<label> Djibril</label>
+			</div>
+		</div>
+	</body>
+</html>
